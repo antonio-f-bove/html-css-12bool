@@ -1,0 +1,24 @@
+.row {
+    background-color: #27f;
+}
+
+.brick {
+    height: 40px;
+    border: 1px solid #fff;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+}
+
+.green {
+    background-color: #5e5;
+    border: 1px solid #27f;
+}
+
+.nested {
+    padding: 10px;
+}
+
+.last {
+    margin-bottom: 20px;
+}

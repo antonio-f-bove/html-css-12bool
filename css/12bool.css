@@ -25,7 +25,6 @@
 
 /* MEDIA */
 
-/* #region SMALL PHONE xs */
 @media screen and (max-width: 575px) {
     
     .col-xs-1 {
@@ -136,10 +135,8 @@
         margin-left: calc((100% / 12) * 12);
     }
 }
-/* #endregion */
 
-/* #region PHONE sm */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 767px) {
     
     .col-sm-1 {
         flex-basis: calc((100% / 12) * 1);
@@ -249,10 +246,8 @@
         margin-left: calc((100% / 12) * 12);
     }
 }
-/* #endregion */
 
-/* #region TABLET md */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 991px) {
     
     .col-md-1 {
         flex-basis: calc((100% / 12) * 1);
@@ -362,10 +357,8 @@
         margin-left: calc((100% / 12) * 12);
     }
 }
-/* #endregion */
 
-/* #region DESKTOP lg */
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 992px) {
     
     .col-lg-1 {
         flex-basis: calc((100% / 12) * 1);
@@ -475,4 +468,3 @@
         margin-left: calc((100% / 12) * 12);
     }
 }
-/* #endregion */
