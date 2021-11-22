@@ -1,9 +1,10 @@
 .row {
-    background-color: #27f;
+    /* height: fit-content; */
 }
 
 .brick {
-    height: 40px;
+    background-color: #27f;
+    min-height: 40px;   /* occhio all'altezza fissa */
     border: 1px solid #fff;
     color: #fff;
     line-height: 40px;
@@ -15,10 +16,10 @@
     border: 1px solid #27f;
 }
 
-.nested {
+.row.nested {
     padding: 10px;
 }
 
-.last {
+.marg-bot-20 {
     margin-bottom: 20px;
 }
